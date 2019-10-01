@@ -1,20 +1,62 @@
+.shelf {
+  background-color: #e4b08b;
+  height: 15px;
+  width: 300px;
+  transform: translate(200px,200px);
+}
+
 .book1 {
   background-color: #8ba7e4;
   height: 100px;
   width: 10px;
   border: 2px dotted pink;
-  transform: translate(105px,100px);
+  transform: translate(205px,82px);
   }
 
-.shelf {
-  background-color: #e4b08b;
-  height: 15px;
-  width: 300px;
-  display: flex;
-  justify-content: space-between;
-  transform: translate(100px,100px);
-}
 
 .book2 {
-  background-color:
+  background-color:#98e6b9;
+  height: 115px;
+  width: 13px;
+  border-top: 10px solid red;
+  transform: translate(219px,-42px);
+}
+
+.book3 {
+  background-color:#7c6b9e;
+  height: 80px;
+  width: 25px;
+  border-top: 5px solid purple;
+  border-bottom:5px solid purple;
+  transform: translate(232px,-132px);
+}
+
+.book4 {
+  background-color:#f0c1d0;
+  height: 90px;
+  width: 25px;
+  border-top: 5px solid #8080ff;
+  border-bottom:5px solid #8080ff;
+  transform: translate(275px,-230px)rotate(25deg);
+}
+
+@font-face {
+    font-family: 'runescape_chat_font';
+    src: local('~/Desktop/Photos/untitled_folder/Runescape_Chat_Font/runescape_chat_font.tff');
+}
+
+.ball {
+  width:30px;
+  height:0;
+  font-size: 20px;
+  font-family: 'runescape_chat_font';
+  color:#98e6ac;
+  text-align:center;
+  line-height:0;
+  padding:25px 0;
+  border-radius:50px;
+  border-style: groove;
+  background:#155625;
+  transform: translate(297px,-276px) rotate(90deg);
+
 }
