@@ -1,0 +1,20 @@
+.book1 {
+  background-color: #8ba7e4;
+  height: 100px;
+  width: 10px;
+  border: 2px dotted pink;
+  transform: translate(105px,100px);
+  }
+
+.shelf {
+  background-color: #e4b08b;
+  height: 15px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  transform: translate(100px,100px);
+}
+
+.book2 {
+  background-color:
+}
